@@ -3,7 +3,7 @@ import streamlit as st
 
 
 st.markdown("""
-    # Atenção Primária à Saúde: O impacto que teríamos em melhorar o sistema de saúde
+    # Atenção Primária à Saúde: Pequenas ações, grande impacto
     
     A Atenção Primária à Saúde (APS) tem sido apontada como essencial para construir sistemas de saúde mais eficientes e equitativos. Em países com sistemas de saúde de forte orientação para APS, observa-se **resultados melhores em termos de mortalidade geral, mortalidade prematura, bem como mortalidade por condições preveníveis e tratáveis** (World Bank, 2017).
     
