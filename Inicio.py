@@ -46,7 +46,7 @@ hipertensos = int(30438732*0.94*diff/100)
 st.write(hipertensos, " **Hipertensos** com pressão arterial aferida.")
 
 diabeticos = int(8735583*0.87*diff/100)
-st.write(diabeticos, " **Diabéticos** com medição de hemoglobina glicada.")
+st.write(diabeticos, " **Diabéticos** teriam a medição de hemoglobina glicada realizada, diminuindo as amputações por diabétes que hoje é responsável por 70% das amputações dos membros inferiores.")
 
 
 # streamlit run inicio.py --theme.primaryColor "#34758A"
