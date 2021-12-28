@@ -33,20 +33,28 @@ st.write("Com a capacidade do atendimento em ", capacidade, " % teria-se um dese
 
 diff = round((capacidade-26)/74*100, 1)
 
-gestantes = int(603858*0.87*diff/100)
-st.write(gestantes, " **Gestantes** que teriam melhorias no pré-natal, exames e saude odontologica.")
+gestantes = f"{int(603858*0.87*diff/100):,}"
+st.write(gestantes, " **Gestantes** com melhorias no pré-natal, exames e saude odontologica.")
 
-mulheres = int(39107641*0.87*diff/100)
+mulheres = f"{int(39107641*0.87*diff/100):,}"
 st.write(mulheres, " **Mulheres** que teriam realização de exame citopatológico, e consequentemente menos incidência de cancêr de útero.")
 
-criancas = int(1325117*0.51*diff/100)
-st.write(criancas, " **Crianças** com vacina de polio ou penta.")
+criancas = f"{int(1325117*0.51*diff/100):,}"
+st.write(criancas, " **Crianças** a mais vacinadas com polio ou penta.")
 
-hipertensos = int(30438732*0.94*diff/100)
+hipertensos = f"{int(30438732*0.94*diff/100):,}"
 st.write(hipertensos, " **Hipertensos** com pressão arterial aferida.")
 
-diabeticos = int(8735583*0.87*diff/100)
+diabeticos = f"{int(8735583*0.87*diff/100):,}"
 st.write(diabeticos, " **Diabéticos** teriam a medição de hemoglobina glicada realizada, diminuindo as amputações por diabétes que hoje é responsável por 70% das amputações dos membros inferiores.")
+
+st.write("""
+    &nbsp;
+
+    Você pode obter mais informações sobre o programa e como melhorar os indicadores <a href="https://impulsoprevine.org/">aqui</a>. 
+    &nbsp;
+    """,
+    unsafe_allow_html=True)
 
 
 # streamlit run inicio.py --theme.primaryColor "#34758A"
